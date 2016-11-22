@@ -125,31 +125,29 @@ O uso de branches no repositório é livre para os integrantes fazerem a partir 
 
 ### 3.4. Estrutura do Repositório
 
+
+* ***`Gerência de Projeto`***
+	- *Arquivos base para a execução do processo de Gerência de Projeto*
+* ***`Gerência de Configuração`***
+	- *Arquivos de anexo para o Plano de Gerência de Configuração*
+* ***`Engenharia de Requisitos`***
+	- *Arquivos de anexo para apoio da Engenharia de Requisitos (protótipos, etc.)*
+* ***`Arquitetura de Software`***
+	- *Arquivos relacionados à Arquitetura do software (diagramas, processos, etc.)*
 + **`anexos`**
-	* ***`arq`***
-		- *Arquivos de anexo relacionados à Arquitetura do software (diagramas, processos, etc.)*
-	* ***`gco`***
-		- *Arquivos de anexo para o Plano de Gerência de Configuração*
-	* ***`req`***
-		- *Arquivos de anexo para apoio da Engenharia de Requisitos (protótipos, etc.)*
-	* ***`v&v`***
-		- *Arquivos de apoio para o processo de Verificação e Validação*
-- **`extras`**
 	+ *Arquivos de terceiros ou que não tem relação direta com apenas uma área de conhecimento dentro do projeto (identidade visual, material de apoio, etc.)*
 
 ### 3.5. Identificação da Configuração
 
-#### Documentos em Markdown
+#### Documentos
 
-Todos os documentos de texto em *Markdown* na pasta `docs/wiki/` terão o seguinte método de identificação:
+Todos os documentos de texto em *Markdown* ou em PDF terão o seguinte método de identificação:
 
 **`<Título-do-documento>.md`**
 
 | Identificador | Descrição |
 |---------------|-----------|
 | `<Título-do-documento>` | Um nome único e completo para o documento, com primeira letra *maiúscula*, com acentos e espaçamento com *hífen* ("-"). O mesmo nome deve ser o nome do título do documento dentro deste, mas com espaçamento com *espaços* (" "). Ex.: *"Plano-de-Gerência-de-Configuração", "Documento-de-Especificação-de-Interface"*, etc. |
-
-**Obs.:** Todo novo documento de texto incluído no repositório deve ser referenciado no [**`README.md`**](../README.md) na seção (área da Engenharia de Software) a qual ele pertence.
 
 #### Outros artefatos
 
